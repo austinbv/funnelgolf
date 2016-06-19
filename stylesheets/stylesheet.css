@@ -56,8 +56,10 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background: url(horse.jpg) no-repeat;
+  background-size: 120%;
+  background-position: 0px -480px;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
